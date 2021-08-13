@@ -6,36 +6,6 @@
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
 @import url(https://fonts.googleapis.com/earlyaccess/notokufiarabic.css);
-@font-face {
-  font-family: RobotoFallback;
-  font-style: normal;
-  font-weight: 300;
-  src: local("Roboto Light"),local("Roboto-Light"),url("../../../node_modules/devextreme/dist/css/fonts/Roboto-300.woff2") format("woff2"),url("../../../node_modules/devextreme/dist/css/fonts/Roboto-300.woff") format("woff"),url("../../../node_modules/devextreme/dist/css/fonts/Roboto-300.ttf") format("truetype");
-}
-@font-face {
-  font-family: RobotoFallback;
-  font-style: normal;
-  font-weight: 400;
-  src: local("Roboto"),local("Roboto-Regular"),url("../../../node_modules/devextreme/dist/css/fonts/Roboto-400.woff2") format("woff2"),url("../../../node_modules/devextreme/dist/css/fonts/Roboto-400.woff") format("woff"),url("../../../node_modules/devextreme/dist/css/fonts/Roboto-400.ttf") format("truetype");
-}
-@font-face {
-  font-family: RobotoFallback;
-  font-style: normal;
-  font-weight: 500;
-  src: local("Roboto Medium"),local("Roboto-Medium"),url("../../../node_modules/devextreme/dist/css/fonts/Roboto-500.woff2") format("woff2"),url("../../../node_modules/devextreme/dist/css/fonts/Roboto-500.woff") format("woff"),url("../../../node_modules/devextreme/dist/css/fonts/Roboto-500.ttf") format("truetype");
-}
-@font-face {
-  font-family: RobotoFallback;
-  font-style: normal;
-  font-weight: 700;
-  src: local("Roboto Bold"),local("Roboto-Bold"),url("../../../node_modules/devextreme/dist/css/fonts/Roboto-700.woff2") format("woff2"),url("../../../node_modules/devextreme/dist/css/fonts/Roboto-700.woff") format("woff"),url("../../../node_modules/devextreme/dist/css/fonts/Roboto-700.ttf") format("truetype");
-}
-@font-face {
-  font-family: DXIcons;
-  src: local("DevExtreme Material Icons"),local("devextreme_material_icons"),url("../../../node_modules/devextreme/dist/css/icons/dxiconsmaterial.woff2") format("woff2"),url("../../../node_modules/devextreme/dist/css/icons/dxiconsmaterial.woff") format("woff"),url("../../../node_modules/devextreme/dist/css/icons/dxiconsmaterial.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
 .dx-swatch-additional .dx-validationsummary-item {
   cursor: pointer;
 }
@@ -96,14 +66,12 @@
   color: #fff;
   font-weight: 400;
   font-size: 14px;
-  font-family: Roboto,RobotoFallback,"Noto Kufi Arabic",Helvetica,Arial,sans-serif;
   line-height: 1.2857;
 }
 .dx-theme-material-typography .dx-swatch-additional input,
 .dx-theme-material-typography .dx-swatch-additional textarea,
 .dx-theme-material-typography.dx-swatch-additional input,
 .dx-theme-material-typography.dx-swatch-additional textarea {
-  font-family: Roboto,RobotoFallback,"Noto Kufi Arabic",Helvetica,Arial,sans-serif;
   line-height: 1.2857;
 }
 .dx-theme-material-typography .dx-swatch-additional h1,
@@ -1582,7 +1550,6 @@
   color: #fff;
   font-weight: 400;
   font-size: 14px;
-  font-family: Roboto,RobotoFallback,"Noto Kufi Arabic",Helvetica,Arial,sans-serif;
   line-height: 1.2857;
 }
 .dx-swatch-additional .dx-widget,
@@ -1606,7 +1573,6 @@
 }
 .dx-swatch-additional .dx-widget input,
 .dx-swatch-additional .dx-widget textarea {
-  font-family: Roboto,RobotoFallback,"Noto Kufi Arabic",Helvetica,Arial,sans-serif;
   line-height: 1.2857;
 }
 .dx-swatch-additional .dx-state-disabled .dx-widget,
@@ -1646,7 +1612,6 @@
   color: #fff;
   font-weight: 400;
   font-size: 14px;
-  font-family: Roboto,RobotoFallback,"Noto Kufi Arabic",Helvetica,Arial,sans-serif;
   line-height: 1.2857;
   padding: 0;
   display: -webkit-box;
@@ -1698,7 +1663,6 @@
 }
 .dx-swatch-additional .dx-field input,
 .dx-swatch-additional .dx-field textarea {
-  font-family: Roboto,RobotoFallback,"Noto Kufi Arabic",Helvetica,Arial,sans-serif;
   line-height: 1.2857;
 }
 .dx-swatch-additional .dx-field-label i {
@@ -2359,7 +2323,6 @@
   display: inline;
   vertical-align: middle;
   line-height: 23px;
-  text-transform: uppercase;
   font-weight: 500;
   letter-spacing: .04em;
 }
@@ -3698,7 +3661,6 @@
 .dx-swatch-additional .dx-tab-content,
 .dx-swatch-additional .dx-tab-text {
   vertical-align: middle;
-  text-transform: uppercase;
   line-height: 24px;
   font-weight: 500;
 }
@@ -3829,7 +3791,6 @@
   color: #fff;
   font-weight: 400;
   font-size: 14px;
-  font-family: Roboto,RobotoFallback,"Noto Kufi Arabic",Helvetica,Arial,sans-serif;
   line-height: 1.2857;
 }
 .dx-swatch-additional .dx-overlay-wrapper,
@@ -3870,7 +3831,6 @@
 }
 .dx-swatch-additional .dx-overlay-wrapper input,
 .dx-swatch-additional .dx-overlay-wrapper textarea {
-  font-family: Roboto,RobotoFallback,"Noto Kufi Arabic",Helvetica,Arial,sans-serif;
   line-height: 1.2857;
 }
 .dx-swatch-additional .dx-validationsummary-item {

@@ -60,41 +60,15 @@
     transform: scale(1);
   }
 }
-@font-face {
-  font-family: RobotoFallback;
-  font-style: normal;
-  font-weight: 300;
-  src: local("Roboto Light"),local("Roboto-Light"),url("../../../node_modules/devextreme/dist/css/fonts/Roboto-300.woff2") format("woff2"),url("../../../node_modules/devextreme/dist/css/fonts/Roboto-300.woff") format("woff"),url("../../../node_modules/devextreme/dist/css/fonts/Roboto-300.ttf") format("truetype");
-}
-@font-face {
-  font-family: RobotoFallback;
-  font-style: normal;
-  font-weight: 400;
-  src: local("Roboto"),local("Roboto-Regular"),url("../../../node_modules/devextreme/dist/css/fonts/Roboto-400.woff2") format("woff2"),url("../../../node_modules/devextreme/dist/css/fonts/Roboto-400.woff") format("woff"),url("../../../node_modules/devextreme/dist/css/fonts/Roboto-400.ttf") format("truetype");
-}
-@font-face {
-  font-family: RobotoFallback;
-  font-style: normal;
-  font-weight: 500;
-  src: local("Roboto Medium"),local("Roboto-Medium"),url("../../../node_modules/devextreme/dist/css/fonts/Roboto-500.woff2") format("woff2"),url("../../../node_modules/devextreme/dist/css/fonts/Roboto-500.woff") format("woff"),url("../../../node_modules/devextreme/dist/css/fonts/Roboto-500.ttf") format("truetype");
-}
-@font-face {
-  font-family: RobotoFallback;
-  font-style: normal;
-  font-weight: 700;
-  src: local("Roboto Bold"),local("Roboto-Bold"),url("../../../node_modules/devextreme/dist/css/fonts/Roboto-700.woff2") format("woff2"),url("../../../node_modules/devextreme/dist/css/fonts/Roboto-700.woff") format("woff"),url("../../../node_modules/devextreme/dist/css/fonts/Roboto-700.ttf") format("truetype");
-}
 .dx-theme-material-typography {
   background-color: #fff;
   color: rgba(0,0,0,.87);
   font-weight: 400;
   font-size: 14px;
-  font-family: Roboto,RobotoFallback,"Noto Kufi Arabic",Helvetica,Arial,sans-serif;
   line-height: 1.2857;
 }
 .dx-theme-material-typography input,
 .dx-theme-material-typography textarea {
-  font-family: Roboto,RobotoFallback,"Noto Kufi Arabic",Helvetica,Arial,sans-serif;
   line-height: 1.2857;
 }
 .dx-theme-material-typography h1 {
@@ -1566,7 +1540,6 @@
   color: rgba(0,0,0,.87);
   font-weight: 400;
   font-size: 14px;
-  font-family: Roboto,RobotoFallback,"Noto Kufi Arabic",Helvetica,Arial,sans-serif;
   line-height: 1.2857;
 }
 .dx-widget,
@@ -1590,7 +1563,6 @@
 }
 .dx-widget input,
 .dx-widget textarea {
-  font-family: Roboto,RobotoFallback,"Noto Kufi Arabic",Helvetica,Arial,sans-serif;
   line-height: 1.2857;
 }
 .dx-state-disabled .dx-widget,
@@ -1630,7 +1602,6 @@
   color: rgba(0,0,0,.87);
   font-weight: 400;
   font-size: 14px;
-  font-family: Roboto,RobotoFallback,"Noto Kufi Arabic",Helvetica,Arial,sans-serif;
   line-height: 1.2857;
   padding: 0;
   display: -webkit-box;
@@ -1682,7 +1653,6 @@
 }
 .dx-field input,
 .dx-field textarea {
-  font-family: Roboto,RobotoFallback,"Noto Kufi Arabic",Helvetica,Arial,sans-serif;
   line-height: 1.2857;
 }
 .dx-field-label i {
@@ -2356,7 +2326,6 @@
   display: inline;
   vertical-align: middle;
   line-height: 23px;
-  text-transform: uppercase;
   font-weight: 500;
   letter-spacing: .04em;
 }
@@ -4378,7 +4347,6 @@
 .dx-tab-content,
 .dx-tab-text {
   vertical-align: middle;
-  text-transform: uppercase;
   line-height: 24px;
   font-weight: 500;
 }
@@ -4509,7 +4477,7 @@
   color: rgba(0,0,0,.87);
   font-weight: 400;
   font-size: 14px;
-  font-family: Roboto,RobotoFallback,"Noto Kufi Arabic",Helvetica,Arial,sans-serif;
+  font-family: ;
   line-height: 1.2857;
 }
 .dx-overlay-wrapper,
@@ -4550,7 +4518,6 @@
 }
 .dx-overlay-wrapper input,
 .dx-overlay-wrapper textarea {
-  font-family: Roboto,RobotoFallback,"Noto Kufi Arabic",Helvetica,Arial,sans-serif;
   line-height: 1.2857;
 }
 .dx-validationsummary-item {
@@ -6926,7 +6893,6 @@
   text-decoration: none;
   font-size: 14px;
   line-height: 1.2;
-  text-transform: uppercase;
   right: 32px;
   left: 32px;
 }
@@ -8206,12 +8172,10 @@
   color: rgba(0,0,0,.87);
   font-weight: 400;
   font-size: 14px;
-  font-family: Roboto,RobotoFallback,"Noto Kufi Arabic",Helvetica,Arial,sans-serif;
   line-height: 1.2857;
 }
 .dx-menu-base input,
 .dx-menu-base textarea {
-  font-family: Roboto,RobotoFallback,"Noto Kufi Arabic",Helvetica,Arial,sans-serif;
   line-height: 1.2857;
 }
 .dx-menu-base.dx-state-focused {
@@ -13200,12 +13164,10 @@
   color: rgba(0,0,0,.87);
   font-weight: 400;
   font-size: 14px;
-  font-family: Roboto,RobotoFallback,"Noto Kufi Arabic",Helvetica,Arial,sans-serif;
   line-height: 1.2857;
 }
 .dx-datagrid-column-chooser input,
 .dx-datagrid-column-chooser textarea {
-  font-family: Roboto,RobotoFallback,"Noto Kufi Arabic",Helvetica,Arial,sans-serif;
   line-height: 1.2857;
 }
 .dx-datagrid-column-chooser.dx-datagrid-column-chooser-mode-drag .dx-popup-content {
@@ -15606,12 +15568,10 @@ input.dx-hidden {
   color: rgba(0,0,0,.87);
   font-weight: 400;
   font-size: 14px;
-  font-family: Roboto,RobotoFallback,"Noto Kufi Arabic",Helvetica,Arial,sans-serif;
   line-height: 1.2857;
 }
 .dx-treelist-column-chooser input,
 .dx-treelist-column-chooser textarea {
-  font-family: Roboto,RobotoFallback,"Noto Kufi Arabic",Helvetica,Arial,sans-serif;
   line-height: 1.2857;
 }
 .dx-treelist-column-chooser.dx-treelist-column-chooser-mode-drag .dx-popup-content {
@@ -17385,12 +17345,10 @@ input.dx-hidden {
   color: rgba(0,0,0,.87);
   font-weight: 400;
   font-size: 14px;
-  font-family: Roboto,RobotoFallback,"Noto Kufi Arabic",Helvetica,Arial,sans-serif;
   line-height: 1.2857;
 }
 .dx-pivotgrid .dx-ie .dx-pivotgrid-fields-area input,
 .dx-pivotgrid .dx-ie .dx-pivotgrid-fields-area textarea {
-  font-family: Roboto,RobotoFallback,"Noto Kufi Arabic",Helvetica,Arial,sans-serif;
   line-height: 1.2857;
 }
 .dx-pivotgridfieldchooser .dx-area .dx-area-icon-filter {
@@ -17403,7 +17361,6 @@ input.dx-hidden {
   content: "";
 }
 .dx-pivotgridfieldchooser .dx-area .dx-area-caption {
-  text-transform: uppercase;
   font-size: 12px;
   font-weight: 500;
   color: rgba(0,0,0,.54);
@@ -22816,12 +22773,6 @@ input.dx-hidden {
 .dx-htmleditor-content .ql-video.ql-align-right {
   margin: 0 0 0 auto;
 }
-.dx-htmleditor-content .ql-font-serif {
-  font-family: Georgia,Times New Roman,serif;
-}
-.dx-htmleditor-content .ql-font-monospace {
-  font-family: Monaco,Courier New,monospace;
-}
 .dx-htmleditor-content .ql-direction-rtl {
   direction: rtl;
   text-align: inherit;
@@ -23503,7 +23454,6 @@ input.dx-hidden {
 .dx-fa-button.dx-fa-button-main .dx-overlay-content .dx-fa-button-label {
   padding: 0 20px 0 12px;
   font-size: 14px;
-  text-transform: uppercase;
   letter-spacing: 1.25px;
   font-weight: 500;
 }
@@ -24747,7 +24697,6 @@ input.dx-hidden {
 }
 .dx-diagram-toolbox-panel .dx-accordion .dx-item-content.dx-accordion-item-title .dx-accordion-item-title-caption {
   font-size: .8em;
-  text-transform: uppercase;
   left: 12px;
   top: 8px;
   right: 32px;
@@ -24769,7 +24718,6 @@ input.dx-hidden {
   padding: 0;
 }
 .dx-diagram-properties-popup .dx-diagram-properties-panel-group-title {
-  text-transform: uppercase;
   padding: 16px;
 }
 .dx-diagram-properties-popup .dx-diagram-properties-panel-group-toolbar {
