@@ -26,7 +26,7 @@
 
     <dxi-item>
       <div class="link">
-        <a routerLink="/reset-password">Zapomniałeś hasła?</a>
+        <a routerLink="/reset-password">Nie pamiętam hasła</a>
       </div>
     </dxi-item>
 
@@ -39,7 +39,7 @@
         <ng-container *ngIf="loading; else notLoading">
           <dx-load-indicator width="24px" height="24px" [visible]="true"></dx-load-indicator>
         </ng-container>
-        <ng-template #notLoading>Zaloguj</ng-template>
+        <ng-template #notLoading>Zaloguj się</ng-template>
       </span>
     </ng-container>
 

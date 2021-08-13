@@ -3,10 +3,13 @@
   height: 100%;
 }
 
+img {
+  align-items: center;
+}
 .single-card {
   .dx-card {
     width: 330px;
-    margin: auto auto;
+    margin: 0 auto;
     padding: 40px;
     flex-grow: 0;
 

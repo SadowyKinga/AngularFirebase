@@ -2538,7 +2538,7 @@
   background-color: rgba(0,0,0,.2);
 }
 .dx-button.dx-button-default {
-  background-color: var(--primary);
+  background-color: var(--bg-color-button);
   color: #fff;
   -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.24);
   box-shadow: 0 1px 3px rgba(0,0,0,.24);
@@ -2547,17 +2547,17 @@
   color: #fff;
 }
 .dx-button.dx-button-default.dx-state-hover {
-  background-color: var(--primary);
+  background-color: var(--bg-color-button);
   -webkit-box-shadow: 0 1px 3px rgba(126, 124, 124, 0.24);
   box-shadow: 0 1px 3px rgba(126, 124, 124, 0.24);
 }
 .dx-button.dx-button-default.dx-state-focused {
-  background-color: var(--primary);
+  background-color: var(--bg-color-button);
   -webkit-box-shadow: 0 1px 3px rgba(126, 124, 124, 0.24);
   box-shadow: 0 1px 3px rgba(126, 124, 124, 0.24);
 }
 .dx-button.dx-button-default.dx-state-active {
-  background-color: var(--primary);
+  background-color: var(--bg-color-button);
   -webkit-box-shadow: 0 4px 6px rgba(126, 124, 124, 0.24);
   box-shadow: 0 4px 6px rgba(126, 124, 124, 0.24);
 }

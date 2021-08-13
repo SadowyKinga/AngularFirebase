@@ -4,11 +4,17 @@
   --base-text-color: #000000de;
   --sidebar-left: #969595;
   --base-border-color: white;
+  --bg-color-button: #000;
+  --primary-bg: rgb(244, 245, 248);
   --font-family: MuseoSans-Regular;
 }
 
 body, html {
-    font-family: var(--font-family), sans-serif!important;
+  font-family: var(--font-family), sans-serif!important;
+}
+
+.dx-scrollview-content{
+  background-color:var(--primary-bg);
 }
 
 @font-face {
