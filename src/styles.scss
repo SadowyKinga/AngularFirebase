@@ -1,0 +1,25 @@
+:root {
+  --primary: #14286e;
+  --base-text-color: #000000de;
+  --sidebar-left: #969595;
+  --base-border-color: white;
+  --font-family: MuseoSans-Regular;
+}
+
+body, html {
+    font-family: var(--font-family), sans-serif!important;
+}
+
+@font-face {
+    font-display: block;
+    font-family: 'MuseoSans-Regular';
+    src: url('./assets/context/booking/fonts/MuseoSans-Regular.ttf');
+    font-weight: normal;
+}
+  
+@font-face {
+  font-display: block;
+  font-family: 'MuseoSans-Regular';
+  src: url('./assets/context/booking/fonts/MuseoSans-Bold.ttf');
+  font-weight: bold;
+}
