@@ -3,7 +3,8 @@ import { CanActivate, Router, ActivatedRouteSnapshot } from '@angular/router';
 
 export interface IUser {
   email: string;
-  avatarUrl?: string
+  // password: string;
+  avatar?: string;
 }
 
 const defaultPath = '/';

@@ -1,6 +1,12 @@
 import { Component, HostBinding } from '@angular/core';
 import { AuthService, ScreenService, AppInfoService } from './shared/services';
 
+
+export interface Credentials {
+  email: string;
+  password: string;
+}
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -8,6 +14,7 @@ import { AuthService, ScreenService, AppInfoService } from './shared/services';
 })
 export class AppComponent  {
   @HostBinding('class') get getClass() {
+
     return Object.keys(this.screen.sizes).filter(cl => this.screen.sizes[cl]).join(' ');
   }
 
@@ -16,4 +23,5 @@ export class AppComponent  {
   isAuthenticated() {
     return this.authService.loggedIn;
   }
+
 }

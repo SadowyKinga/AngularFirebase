@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "projectangular-251d1": {
+      "hosting": {
+        "AngularFirebase": [
+          "projectangular-251d1"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "projectangular-251d1"
+  }
+}
