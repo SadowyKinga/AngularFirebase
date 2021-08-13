@@ -4130,7 +4130,7 @@
 .dx-swatch-additional .dx-texteditor.dx-editor-filled .dx-texteditor-input,
 .dx-swatch-additional .dx-texteditor.dx-editor-outlined .dx-placeholder::before,
 .dx-swatch-additional .dx-texteditor.dx-editor-outlined .dx-texteditor-input {
-  padding: 19px 12px 18px;
+  padding: 11px 12px;
 }
 .dx-swatch-additional .dx-rtl .dx-texteditor.dx-editor-filled .dx-texteditor-buttons-container,
 .dx-swatch-additional .dx-rtl .dx-texteditor.dx-editor-outlined .dx-texteditor-buttons-container,

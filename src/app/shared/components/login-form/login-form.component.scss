@@ -1,7 +1,7 @@
 .login-form {
   .link {
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
 
     a {
@@ -14,3 +14,7 @@
   }
 }
 
+.fw-bold>span {
+  font-weight: 700!important;
+  font-size: 24px!important;
+}
