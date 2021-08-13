@@ -1,6 +1,12 @@
 <form class="create-account-form" (submit)="onSubmit($event)">
   <dx-form [formData]="formData" [disabled]="loading">
 
+    <dxi-item>
+      <div class="fw-bold">
+        <span>Utwórz konto</span>
+      </div>
+    </dxi-item>
+
     <dxi-item dataField="email" editorType="dxTextBox"
       [editorOptions]="{ stylingMode: 'filled', placeholder: 'E-mail', mode: 'email' }">
       <dxi-validation-rule type="required" message="E-mail jest wymagany"></dxi-validation-rule>

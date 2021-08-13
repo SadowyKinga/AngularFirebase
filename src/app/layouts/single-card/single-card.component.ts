@@ -22,6 +22,4 @@ export class SingleCardComponent {
   exports: [ SingleCardComponent ],
   declarations: [ SingleCardComponent ]
 })
-export class SingleCardModule {
-  
-}
+export class SingleCardModule { }
